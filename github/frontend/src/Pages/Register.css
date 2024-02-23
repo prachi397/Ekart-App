@@ -1,0 +1,117 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.signup-content{
+    display: flex;
+    /* width: 500px; */
+    display: -webkit-flex;
+    align-items: center;
+    background-color: white;
+}
+.signup {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+  }
+
+.signup-form {
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding-left: 5rem;
+    padding-top: 4rem;
+    width: 350px; 
+    margin-bottom: 2rem;
+  }
+  .form-title {
+    display: flex;
+    align-items: center; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 18px; 
+  }
+  
+  .form-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+.form-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .custom{
+    box-shadow: none !important;
+  }
+  .signup-image-link{
+    color: black;
+    font-size: medium;
+  }  
+  .extra-title{
+    margin-top: 1rem;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-transform: none !important;
+  }
+  .form-button{
+    border-bottom:none !important
+  }
+  .signup-image{
+    padding: 4rem;
+  }
+  .signup-image img{
+    height: 300px;
+    width: 300px;
+  } 
+
+@media (max-width: 768px) {
+    .signup-content {
+      flex-direction: column; 
+    }
+  
+    .signup-form {
+      padding-left: 1rem; 
+      width: 100%;
+    }
+  
+    .signup-image {
+      padding: 2rem; 
+    }
+  
+    .signup-image img {
+      height: auto;
+      width: 100%; 
+    }
+  }
